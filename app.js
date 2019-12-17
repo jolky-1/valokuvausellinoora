@@ -39,7 +39,7 @@ function outsideClick(e){
     });  
 }
 //      ImageGallery
-const current = document.querySelectorAll('#current');
+const current = document.querySelectorAll('.main-img img');
 const imgs  = document.querySelectorAll('.imgs img');
 const opacity = 0.4;
 imgs[0].style.opacity = opacity;
